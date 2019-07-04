@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="LocalClient.426b5e0e-19ef-4047-a8d7-a845123f0b2a" Version="1.0" Language="zh-CN" Publisher="Company" />
+        <DisplayName>Remote Debug Tool</DisplayName>
+        <Description xml:space="preserve">Remote Debug Tool  implements debugging with a remote computer easily.</Description>
+        <Icon >remote_control_128px_1218067_easyicon.net.ico</Icon>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[16.0, 17.0)" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[16.0, 17.0)" />
+        <InstallationTarget Id="Microsoft.VisualStudio.IntegratedShell" Version="[16.0, 17.0)" />
+        <InstallationTarget Id="Microsoft.VisualStudio.VSWinExpress" Version="[16.0, 17.0)" />
+        <InstallationTarget Id="Microsoft.VisualStudio.VWDExpress" Version="[16.0, 17.0)" />
+        <InstallationTarget Id="Microsoft.VisualStudio.VSWinDesktopExpress" Version="[16.0, 17.0)" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0, 17.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+    </Assets>
+</PackageManifest>

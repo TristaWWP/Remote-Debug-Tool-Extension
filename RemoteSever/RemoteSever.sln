@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteSever", "RemoteSever\RemoteSever.csproj", "{243370DF-604E-44FB-A693-A7A9B76B3C4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpSeverLib", "HttpSeverLib\HttpSeverLib.csproj", "{B29BC93B-FA70-40C3-B0C8-DEE117FB0B1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{243370DF-604E-44FB-A693-A7A9B76B3C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243370DF-604E-44FB-A693-A7A9B76B3C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243370DF-604E-44FB-A693-A7A9B76B3C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243370DF-604E-44FB-A693-A7A9B76B3C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B29BC93B-FA70-40C3-B0C8-DEE117FB0B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29BC93B-FA70-40C3-B0C8-DEE117FB0B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29BC93B-FA70-40C3-B0C8-DEE117FB0B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29BC93B-FA70-40C3-B0C8-DEE117FB0B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9C383C1-5EEA-46D6-982D-80C5E39887EC}
+	EndGlobalSection
+EndGlobal
